@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Pagination</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn startBtn" disabled>
+        <i class="fas fa-angles-left"></i>
+      </button>
+      <button class="btn stepBtn" disabled>
+        <i class="fas fa-angle-left"></i>
+      </button>
+
+      <div class="nums">
+        <a href="#" class="num active">1</a>
+        <a href="#" class="num">2</a>
+        <a href="#" class="num">3</a>
+        <a href="#" class="num">4</a>
+        <a href="#" class="num">5</a>
+      </div>
+
+      <button class="btn stepBtn" id="next">
+        <i class="fas fa-angle-right"></i>
+      </button>
+      <button class="btn endBtn">
+        <i class="fas fa-angles-right"></i>
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
